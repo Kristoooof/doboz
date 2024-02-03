@@ -1,0 +1,35 @@
+.nagy{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.kicsi{
+    padding: 5px;
+    border: 1px solid black;
+    
+}
+#bal, #koz, #jobb{
+    margin-right: 12.5%;
+    border-radius: 17px;
+}
+#bal{  
+    background-image: url(./kartya2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    overflow: visible;
+}
+#koz{
+    background-image: url(./kartya1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    overflow: visible;
+    color: red;
+}
+#jobb{
+    background-image: url(./kartya2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    overflow: visible;
+}
